@@ -1,5 +1,7 @@
-﻿class Program
+﻿namespace NM1
 {
+    class Program
+    {
     static void Main()
     {
         FiguresList List = new();
@@ -15,4 +17,5 @@
 
         System.Console.ReadLine();
     }
+}
 }
