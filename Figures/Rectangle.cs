@@ -1,6 +1,6 @@
 ﻿namespace NM1
 {
-    class Rectangle: Figure
+    class Rectangle: AbstractFigure
     {
         public Rectangle(float coordX0, float coordY0) : base(coordX0, coordY0)
         {

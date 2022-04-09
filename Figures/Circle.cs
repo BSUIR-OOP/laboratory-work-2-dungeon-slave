@@ -1,6 +1,6 @@
 ﻿namespace NM1
 {
-    class Circle: Figure
+    class Circle: AbstractFigure
     {
         public Circle(float coordX0, float coordY0) : base(coordX0, coordY0)
         {

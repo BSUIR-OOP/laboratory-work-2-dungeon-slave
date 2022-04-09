@@ -1,6 +1,6 @@
 ﻿namespace NM1
 {
-    class Rhombus: Figure
+    class Rhombus: AbstractFigure
     {   
         public Rhombus(float coordX0, float coordY0) : base(coordX0, coordY0)
         {

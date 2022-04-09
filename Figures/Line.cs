@@ -1,6 +1,6 @@
 ﻿namespace NM1
 {
-    class Line: Figure
+    class Line: AbstractFigure
     {
         public Line(float coordX0, float coordY0): base(coordX0, coordY0)
         {

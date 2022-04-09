@@ -1,6 +1,6 @@
 ﻿namespace NM1
 {
-    class Dot: Figure 
+    class Dot: AbstractFigure 
     {
         public Dot(float coordX, float coordY): base(coordX, coordY)
         {

@@ -1,9 +1,9 @@
 namespace NM1
 {
-    abstract class Figure
+    abstract class AbstractFigure
     {
         private protected float coordX0, coordY0;
-        public Figure(float coordX, float coordY)
+        public AbstractFigure(float coordX, float coordY)
         {
             this.coordX0 = coordX;
             this.coordY0 = coordY;

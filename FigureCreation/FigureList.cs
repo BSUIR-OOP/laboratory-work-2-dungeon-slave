@@ -1,10 +1,10 @@
 ﻿namespace NM1
 {
-    class FiguresList
+    class FigureList
     {
-        private List<Figure> FigList = new List<Figure>();
+        private List<AbstractFigure> FigList = new List<AbstractFigure>();
 
-        public void AddToList(Figure Figure)
+        public void AddToList(AbstractFigure Figure)
         {
             FigList.Add(Figure);
         }

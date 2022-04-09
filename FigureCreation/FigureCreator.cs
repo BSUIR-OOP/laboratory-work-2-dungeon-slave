@@ -5,7 +5,7 @@ namespace NM1
     class FigureCreator
     {
         //void 
-        void CreateFigure(Figure AbstractFigure)
+        void CreateFigure(AbstractFigure Figure)
         {   
             //Console.WriteLine("Choose figure: ");
         }
