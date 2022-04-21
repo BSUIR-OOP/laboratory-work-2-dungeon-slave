@@ -2,18 +2,16 @@
 {
     class FigureList
     {
-        private List<AbstractFigure> FigList = new List<AbstractFigure>();
-
+        private List<AbstractFigure> figureList = new();
         public void AddToList(AbstractFigure Figure)
         {
-            FigList.Add(Figure);
+            figureList.Add(Figure);
         }
-
-        public void PrintList(Render Rn)
+        public void PrintFigures(Render Rn)
         {
-            for(int i = 0, len = FigList.Count; i < len; i++)
+            for(int i = 0, len = figureList.Count; i < len; i++)
             {
-                System.Console.WriteLine(Rn.FrameRendering(FigList[i].IsFigure));
+                System.Console.WriteLine(Rn.RenderFrame(figureList[i].IsFigure));
             }
         }
     }

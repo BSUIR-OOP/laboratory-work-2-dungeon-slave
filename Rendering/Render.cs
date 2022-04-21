@@ -2,7 +2,7 @@
 {
     class Render: PreRender
     {
-        public char[] FrameRendering(IsFigure Figure)
+        public char[] RenderFrame(IsFigure Figure)
         {
             float coordX, coordY;
             char[] Screen = new char[windowWidth * windowHeight + 1];
