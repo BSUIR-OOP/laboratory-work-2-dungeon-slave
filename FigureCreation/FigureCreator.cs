@@ -37,7 +37,7 @@ namespace NM1
         public void EditList(FigureList FL)
         {
             short act = 0;
-            AbstractFigure CurrFig;
+            AbstractFigure? CurrFig;
             
             while (act != 1)
             {
